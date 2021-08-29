@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "name": "back_node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MaxwellJalves/back-node",
+  "author": "Maxwell Costa",
+  "licente": "MIT"
+}
