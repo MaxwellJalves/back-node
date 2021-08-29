@@ -19,9 +19,10 @@ Criando api em Node
       "dev": "nodemon app.js"
       }
 
-    -[x] execute o comando yarn dev que será executado a configuração de dev reiniciando o servidor quando houver alteração no arquivo
+    - [x] execute o comando yarn dev que será executado a configuração de dev reiniciando o servidor quando houver alteração no arquivo
 
 # Referencias
 
-https://expressjs.com/pt-br/guide/error-handling.html
-https://expressjs.com/pt-br/4x/api.html#express.router
+- https://expressjs.com/pt-br/guide/error-handling.html
+
+- https://expressjs.com/pt-br/4x/api.html#express.router
