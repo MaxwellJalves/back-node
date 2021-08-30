@@ -8,7 +8,8 @@
     "dev": "nodemon src/servidor.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "typeorm": "^0.2.37"
   },
   "devDependencies": {
     "nodemon": "^2.0.12",

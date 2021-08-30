@@ -15,7 +15,8 @@ Criando api em Node
       }
 
     - conforme a documentação do nodemon dentro do arquivo package.json
-    - Criamos um novo atributo com o nome de -> "scripts": {
+    - Criamos um novo atributo com o nome de ->
+      "scripts": {
       "dev": "nodemon app.js"
       }
 
@@ -26,3 +27,6 @@ Criando api em Node
 - https://expressjs.com/pt-br/guide/error-handling.html
 
 - https://expressjs.com/pt-br/4x/api.html#express.router
+
+- https://typeorm.io/#/
+- https://yarnpkg.com/package/typeorm
