@@ -1,4 +1,4 @@
-import { Column, Double, Entity,  PrimaryGeneratedColumn } from "typeorm";
+import { Column, CreateDateColumn, Double, Entity,  PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 
 @Entity()
 export class Produtos{
@@ -15,4 +15,9 @@ export class Produtos{
     @Column()
     preco:  string
 
+    @CreateDateColumn()
+    data_criacao: Date
+
+    @UpdateDateColumn()
+    data_atualizaca: Date
 }

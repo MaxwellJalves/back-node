@@ -1,4 +1,4 @@
-import {createConnection} from 'typeorm'
+import { createConnection } from 'typeorm'
 import { Produtos } from './entity/Produtos';
 import "reflect-metadata";
 
