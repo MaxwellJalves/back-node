@@ -1,17 +1,17 @@
-const EntitySchema = require('typeorm').EntitySchema
-const Usuario = require('../model/Usuario/model').Usuario
+const EntitySchema = require("typeorm").EntitySchema;
+const Usuario = require("../model/Usuario/model").Usuario;
 
 module.exports = new EntitySchema({
-  name: 'Usuario',
+  name: "Usuario",
   target: Usuario,
   columns: {
     id: {
       primary: true,
-      type: 'int',
+      type: "int",
       generated: true,
     },
     name: {
-      type: 'varchar',
+      type: "varchar",
     },
   },
-})
+});
